@@ -1,0 +1,24 @@
+body{
+    margin: 0;
+    background-color: #eeeeee;
+}
+
+div{
+    background-color: #eeeeee;
+    text-align: center;
+}
+
+h1{
+    color: #00adb5;
+    text-emphasis: inherit;
+    margin: 0 auto 0 auto;
+}
+
+
+hr{
+    border-style: none;
+    border-top-style: dotted;
+    border-color: #eeeeee;
+    border-width: 5px;
+    width: 5%;
+}
