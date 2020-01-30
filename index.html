@@ -2,21 +2,82 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width">
-    <meta name="description" content="This is my portfolio">
-    <meta name="keywords" content="web developer, portfolio, linkedin, Christian, Yaranga, Augmented reality, artificial intelligense">
-    <meta name="author" content="Christian Yaranga">
-    <title>This is me</title>
+    <meta name="viewport" content="width=device-width" />
+    <meta name="description" content="This is my portfolio" />
+    <meta
+      name="keywords"
+      content="web developer, portfolio, linkedin, Christian, Yaranga, Augmented reality, artificial intelligense"
+    />
+    <meta name="author" content="Christian Yaranga" />
+    <title>This is me!</title>
     <link rel="stylesheet" href="css/styles.css" />
-    <link rel="icon" href="icon.svg" />
+    <link rel="shortcut icon" href="img/icon.png" />
   </head>
 
   <body>
-    <div>
-      <h1>I'm Christian Yaranga</h1>
-      <p>a <span> <strong>Pro</strong></span>grammer</p>
-    </div>
-|
+    <header>
+      <div class="container">
+        <div id="branding">
+          <h1>Me</h1>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section id="showcase">
+      <div class="container">
+        <h1>I'm Christian Yaranga</h1>
+        <p>
+          a <span> <strong>Pro</strong></span
+          >grammer
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
+          vitae ullamcorper nulla. Suspendisse malesuada massa fringilla,
+          elementum purus in, viverra mauris. Nam eleifend blandit libero, vel
+          lobortis tortor varius eu. Vestibulum vel sagittis dui. Morbi eget
+          quam varius, porta eros sed, facilisis dui. Nulla laoreet turpis in
+          sem convallis scelerisque. Aliquam scelerisque a purus id convallis.
+          Nam ullamcorper enim nec lacus elementum tincidunt. Donec ornare, nisi
+          ac iaculis porttitor, ipsum neque laoreet augue, eget dapibus mauris
+          nisi quis purus. Sed a velit et dui placerat pretium viverra congue
+          arcu.
+        </p>
+      </div>
+    </section>
+
+    <section id="newsletter">
+      <div class="container">
+        <h1>Subscribe to our newsletter</h1>
+        <form action="process.php">
+          <input type="email" placeholder="Enter Email...">
+          <button type="submit" class="button_1">Subscribe</button>
+        </form>
+      </div>
+    </section>
+
+    <section id="boxes">
+      <div class="container">
+        <div class="box">
+          <h3>Augmented reality</h3>
+          <p>Me gusta esto</p>
+        </div>
+        <div class="box">
+          <h3>Virtual reality</h3>
+          <p>Me gusta esto</p>
+        </div>
+        <div class="box">
+          <h3>Visual Computing</h3>
+          <p>Me gusta esto</p>
+        </div>
+      </div>
+    </section>
     <hr />
   </body>
 </html>
