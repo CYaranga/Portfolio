@@ -27,11 +27,11 @@ ul{
 }
 
 .header_area .main-menu .navbar{
-    padding: 1rem 20rem;
+    padding: 1rem 10rem;
 }
 
 .header_area .main-menu .nav-item .nav-link{
-    font: normal 600 17px/2px "Roboto", cursive;
+    font: normal 600 17px/2px "Roboto";
     text-transform: uppercase;
     padding: 1.7rem;
     color: "cmyk(0% 0% 0% 90%)";
