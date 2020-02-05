@@ -1,4 +1,5 @@
 @import url(font.css);
+@import url(partials/_global.css);
 
 body{
     font: 15px/1.5 Arial, Helvetica,sans-serif;
@@ -50,31 +51,51 @@ ul{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
+    
 }
+
+/*end navigation*/
 
 /*banner*/
 .site-banner .container .img-fluid{
     width: 60%;
     border-radius: 5%;
     filter: grayscale(100%);
+    padding: 7rem 0;
 }
 
-h1{
+.site-main .site-banner .site-title h3{
+    padding-top: 35%;
+    font-weight: 500;
+    font-size: 2.5rem;
+}
+
+.site-main .site-banner .site-title h3::after{
+    content: " ";
+    height: 2px;
+    width: 18vw;
+    background: linear-gradient(to right, #191919 0%, #dddddd 100%);
+    display: inline-block;
+    margin-left: 5%;
+}
+
+.site-main .site-banner .site-title h1{
     background: linear-gradient(to right, #191919 0%, #dddddd 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
-    font-weight: 900;
+    font-weight: 900 ;
+    font-size: 4rem;
     text-emphasis: inherit;
-    margin: 0 auto 0 auto;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    padding: 0%;
 }
 
-hr{
-    border-style: none;
-    border-top-style: dotted;
-    border-color: #eeeeee;
-    border-width: 5px;
-    width: 5%;
+.site-main .site-banner .site-title h4{
+    font-size: 1.5rem;
 }
+
+
 
 /* Showcase */
