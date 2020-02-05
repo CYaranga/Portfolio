@@ -31,19 +31,40 @@ ul{
 }
 
 .header_area .main-menu .nav-item .nav-link{
-    font-family: "Roboto", cursive;
+    font: normal 600 17px/2px "Roboto", cursive;
     text-transform: uppercase;
-    font-weight: 500;
     padding: 1.7rem;
     color: "cmyk(0% 0% 0% 90%)";
 }
 
-.header_area .main-menu .navbar-brand .active a{
-    background: ;
+.header_area .main-menu .navbar-nav .active a{
+    background: linear-gradient(to right, #191919 0%, #666666 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.header_area .main-menu .navbar-nav a:hover{
+    background: linear-gradient(to right, #191919 0%, #666666 100%);
+    font: normal 900 19px/2px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+/*banner*/
+.site-banner .container .img-fluid{
+    width: 60%;
+    border-radius: 5%;
+    filter: grayscale(100%);
 }
 
 h1{
-    color: #00adb5;
+    background: linear-gradient(to right, #191919 0%, #dddddd 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-weight: 900;
     text-emphasis: inherit;
     margin: 0 auto 0 auto;
 }
