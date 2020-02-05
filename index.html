@@ -10,26 +10,66 @@
     />
     <meta name="author" content="Christian Yaranga" />
     <title>This is me!</title>
+
+    <!--Bootstrap style-->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+
+    <!--Font awsonme-->
+    <link rel="stylesheet" href="css/all.min.css" />
+
+    <!--CSS Style-->
     <link rel="stylesheet" href="css/styles.css" />
     <link rel="shortcut icon" href="img/icon.png" />
   </head>
 
   <body>
-    <header>
-      <div class="container">
-        <div id="branding">
-          <h1>Me</h1>
-        </div>
-        <nav>
-          <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="contact.html">Contact</a></li>
-          </ul>
+    <!--====================Start Header Area====================-->
+    <header class="header_area">
+      <div class="main-menu">
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <a class="navbar-brand" href="#"><img src="/img/Logo.png" alt="Logo"></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+         
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <div class="mr-auto"></div>
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link" href="#"
+                  >Home <span class="sr-only">(current)</span></a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Pages</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+              
+            </ul>
+          </div>
         </nav>
       </div>
     </header>
-
+    <!--====================End Header Area====================-->
     <section id="showcase">
       <div class="container">
         <h1>I'm Christian Yaranga</h1>
@@ -52,16 +92,6 @@
       </div>
     </section>
 
-    <section id="newsletter">
-      <div class="container">
-        <h1>Subscribe to our newsletter</h1>
-        <form action="process.php">
-          <input type="email" placeholder="Enter Email...">
-          <button type="submit" class="button_1">Subscribe</button>
-        </form>
-      </div>
-    </section>
-
     <section id="boxes">
       <div class="container">
         <div class="box">
@@ -79,5 +109,7 @@
       </div>
     </section>
     <hr />
+    <script src="/js/jquery3.4.1.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
   </body>
 </html>
