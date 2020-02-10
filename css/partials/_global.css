@@ -1,8 +1,28 @@
 .title-text{
-    font: normal bold 50px/ 72px var(--roboto);
+    font: normal 200 50px/ 72px "Open Sans";
 }
 
 .text-uppercase{
     text-transform: uppercase;
 }
 
+.button{
+    padding: .8rem;
+    font: normal 500 16px/20px "Open Sans";
+    position: relative;
+    border: 3px solid transparent;
+    border-radius: 4px;
+}
+
+.button.primary-button, .button.secondary-button{
+    background: whitesmoke;
+    background-clip: padding-box;
+    color: black;
+    border-radius: 4px;
+}
+
+.button.primary-button:hover, .button.secondary-button:hover {
+    background: white;
+    background-clip: padding-box;
+    color: black;
+}
