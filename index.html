@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-  <title>W3.CSS Template</title>
+  <title>Christian - Portfolio</title>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
@@ -13,17 +13,19 @@
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
   />
+  <script src="https://unpkg.com/scroll-out/dist/scroll-out.min.js"></script>
 
   <body>
+    
     <div class="w3-top">
       <div class="w3-bar w3-black w3-card" id="myNavbar">
         <div class="w3-bar-item w3-button w3-wide">
           <hr class="w3-border-grey" style="margin:auto;width:100%" />
-          <a href="#home" style="text-decoration-line: none;">C. Yaranga</a>
+          <a href="#home" style="text-decoration-line: none;font-size: 1.8rem;">C. Yaranga</a>
           <hr class="w3-border-grey" style="margin:auto;width:100%" />
         </div>
 
-        <div class="w3-right w3-hide-small">
+        <div class="w3-right w3-hide-small" style="padding: 0.6rem;">
           <a href="#home" class="w3-bar-item w3-button">HOME</a>
           <a href="#about" class="w3-bar-item w3-button">ABOUT</a>
           <a href="#portfolio" class="w3-bar-item w3-button"> PORTFOLIO</a>
@@ -67,16 +69,44 @@
 
     
 
-    <div class="bgimg w3-display-container w3-animate-opacity w3-text-white">
-      <div class="w3-display-middle">
-        <h1 class="w3-jumbo w3-animate-top">CHRISTIAN YARANGA</h1>
+    <div class="bgimg w3-display-container w3-animate-opacity w3-text-white" id="home">
+      <div class="w3-display-middle" style="width: 80%;">
+        <h1 data-scroll class="w3-jumbo w3-animate-top w3-center">CHRISTIAN YARANGA</h1>
         <hr class="w3-border-grey" style="margin:auto;width:40%" />
         <p class="w3-large w3-center">not your average programmer</p>
       </div>
-
-      <div class="mouse w3-display-bottommiddle"></div>
+      <div class="scrolldown">
+        <a href="#about">
+          <span></span>
+        <span></span>
+        <span></span>
+        </a>
+      </div>
     </div>
 
+    
+    
+    <div class="bgimg w3-display-container w3-text-white" id="about">
+      <div class="w3-display-middle data-scroll" style="width: 60%;">
+        <h1 data-scroll class="w3-jumbo w3-center">About Me</h1>
+        <hr class="w3-border-grey" style="margin:auto;width:40%" />        
+        <div class="w3-row">
+          <div class="w3-col s3 w3-center">
+            <p>Web Development</p>
+            <img src="img/JS-8.png" alt="" style="width: 3rem;">
+          </div>
+          <div class="w3-col s3 w3-center"><p>AR/VR Reality</p></div>
+          <div class="w3-col s3 w3-center"><p>Visual Computing</p></div>
+          <div class="w3-col s3 w3-center"><p>Electronics</p></div>
+        </div>
+      </div>
+    </div>
     <script src="js/portfolio.js"></script>
+    
+    
+    <script src="https://unpkg.com/scroll-out/dist/scroll-out.min.js"></script>
+    <script>
+        ScrollOut();
+    </script>
   </body>
 </html>

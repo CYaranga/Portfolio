@@ -1,0 +1,37 @@
+section{
+    height: 100vh;
+    width: 100%;
+    padding: 6em;
+    box-sizing: border-box;
+    color: white;
+}
+    h1 {
+        font-size: 5em;
+    }
+
+    p{
+        width: 50%;
+        opacity: .8;
+        line-height: 1.5em;
+        font-size: 1.5em;
+    }
+
+section:nth-of-type(1){background: rgb(29, 167, 103);}
+section:nth-of-type(2){background: rgb(37,123,180);}
+section:nth-of-type(3){background: rgb(111,38,179);}
+section:nth-of-type(4){background: rgb(142,173,39);}
+
+
+[data-scroll]{
+    transition: all 2s;
+}
+
+[data-scroll="in"]{
+    opacity:1;
+    transform: translateX(0)
+}
+
+[data-scroll="out"]{
+    opacity: 0;
+    transform: translateX(-200px);
+}
