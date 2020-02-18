@@ -84,3 +84,9 @@ html {
     opacity: 0;
   }
 }
+
+/* About */
+
+.about .icons{
+  height: 2.8rem;
+}
