@@ -5,13 +5,9 @@ h1 {
 body,
 html {
   height: 100%;
-}
-.bgimg {
   background: black;
-  min-height: 100%;
-  background-position: center;
-  background-size: cover;
 }
+
 
 [data-scroll]{
   transition: all 1s;
@@ -29,9 +25,6 @@ html {
 
 
 .scrolldown{
-  position: absolute;
-  bottom: 20px;
-  left: 50%;
   width: 1.5rem;
   height: 1.5rem;
   transform: translateY(-3rem) translateX(-50%) rotate(45deg);
@@ -88,5 +81,5 @@ html {
 /* About */
 
 .about .icons{
-  height: 2.8rem;
+  height: 2.5rem;
 }
