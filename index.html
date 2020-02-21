@@ -2,7 +2,10 @@
 <html>
   <title>Christian - Portfolio</title>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1, maximum-scale=1"
+  />
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
   <link
     rel="stylesheet"
@@ -16,12 +19,13 @@
   <script src="https://unpkg.com/scroll-out/dist/scroll-out.min.js"></script>
 
   <body>
-    
     <div class="w3-top">
       <div class="w3-bar w3-black w3-card" id="myNavbar">
         <div class="w3-bar-item w3-button w3-wide">
           <hr class="w3-border-grey" style="margin:auto;width:100%" />
-          <a href="#home" style="text-decoration-line: none;font-size: 1.8rem;">C. Yaranga</a>
+          <a href="#home" style="text-decoration-line: none;font-size: 1.8rem;"
+            >C. Yaranga</a
+          >
           <hr class="w3-border-grey" style="margin:auto;width:100%" />
         </div>
 
@@ -41,7 +45,7 @@
         </a>
       </div>
     </div>
-    
+
     <nav
       class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large"
       style="display:none"
@@ -67,111 +71,269 @@
       >
     </nav>
 
-    
-    <div class=" w3-display-container w3-animate-opacity w3-text-white" id="home" style="min-height: 100%;">
+    <div
+      class=" w3-display-container w3-animate-opacity w3-text-white"
+      id="home"
+      style="min-height: 100vh;"
+    >
       <div class="w3-display-middle" style="width: 80%;">
-        <h1 data-scroll class="w3-jumbo w3-animate-top w3-center">CHRISTIAN YARANGA</h1>
+        <h1 data-scroll class="w3-jumbo w3-animate-top w3-center">
+          CHRISTIAN YARANGA
+        </h1>
         <hr class="w3-border-grey" style="margin:auto;width:40%" />
         <p class="w3-large w3-center">not your average programmer</p>
       </div>
       <div class="w3-display-bottommiddle scrolldown">
         <a href="#about">
-        <span></span>
-        <span></span>
-        <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
         </a>
       </div>
     </div>
 
+    <div
+      class="about w3-display-container w3-text-white"
+      id="about"
+      style="min-height: 100%;"
+    >
+      <div class="w3-display-middle data-scroll" style="width: 90%;">
+        <h1 data-scroll class="w3-jumbo w3-center">About Me</h1>
+        <hr class="w3-border-grey" style="margin:auto;width:40%" />
 
-    <div class="about w3-display-container w3-text-white" id="about" style="min-height: 100%;">
-      <div class="w3-display-middle data-scroll" style="width: 95%;">
-        <h1 data-scroll class="w3-jumbo w3-center">About Me</h1>           
-        <hr class="w3-border-grey" style="margin:auto;width:40%" />        
-        <div class="w3-row" style="margin-top: 8rem;">
-
-
-          <div class="w3-display-container w3-col l3 w3-center">
-              <div class="w3-row w3-center">
-              <div class="w3-col m12">
-                <h3>Web Development</h3>
-              </div>
-              <div class="w3-col" style="width: 12.5%;"><p></p></div>
-              <div class="w3-col m3 w3-center">
-                <img class="icons" src="img/HTML-8.png">  
-                <p style="margin-top: 0.5rem;">HTML-5</p>          
-              </div>
-              <div class="w3-col m3 w3-center">
-                <img class="icons" src="img/CSS-8.png">  
-                <p style="margin-top: 0.5rem;">CSS-3</p>          
-              </div>
-              <div class="w3-col m3 w3-center">
-                <img class="icons" src="img/JS-8.png">
-                <p style="margin-top: 0.5rem;">JavaScript</p>            
-              </div>
-              <div class="w3-col" style="width: 12.5%;"><p></p></div> 
-            </div>
-          </div>
-          <div class="w3-col l3 w3-center">
+        <div
+          class="w3-row w3-hide-medium w3-hide-small"
+          style="margin-top: 5rem;"
+        >
+          <div class="w3-col" style="width: 3.3%;"><p></p></div>
+          <div class="w3-col l2 w3-center" style="margin: 1%;">
             <div class="w3-row w3-center">
               <div class="w3-col m12">
-                <h3>AR/VR Reality</h3>     
-              </div>       
-              <div class="w3-col" style="width: 25%;"><p></p></div>
-              <div class="w3-col m3 w3-center">
-                <img class="icons" src="img/unity-8.png">  
-                <p style="margin-top: 0.5rem;">Unity 3D</p>          
+                <img class="Logo" src="img/web-8.png" />
+                <h3><strong>Web Development</strong></h3>
+                <p>
+                  I like to code things from scratch, and enjoy bringing ideas
+                  to life in the browser.
+                </p>
+                <h5><strong>Things I use:</strong></h5>
+                <div class="list">
+                  <p>HTML</p>
+                  <p>CSS</p>
+                  <p>JavaScript</p>
+                  <p>Bootstrap</p>
+                  <p>W3.CSS</p>
+                  <p>React JS</p>
+                  <p>Firebase</p>
+                </div>
               </div>
-              <div class="w3-col m3 w3-center">
-                <img class="icons" src="img/Unreal.svg">  
-                <p style="margin-top: 0.5rem;">Unreal Engine</p>          
-              </div>
-              <div class="w3-col"style="width: 25%;"><p></p></div>
             </div>
           </div>
-          <div class="w3-col l3 w3-center">
+
+          <div class="w3-col l2 w3-center" style="margin: 1%;">
             <div class="w3-row w3-center">
               <div class="w3-col m12">
-                <h3>Visual Computing</h3>
+                <img class="Logo" src="img/VR2-8.png" />
+                <h3><strong>AR/VR Reality</strong></h3>
+                <p>
+                  I love to improve information access with technology.
+                </p>
+                <h5><strong>Things I use:</strong></h5>
+                <div class="list">
+                  <p>Unity</p>
+                  <p>Vuforia</p>
+                  <p>Unreal Engine</p>
+                  <p>BluePrints</p>
+                  <p>ARCore</p>
+                  <p>Firebase</p>
+                  <p>Steam VR</p>
+                  <p>HTC Vive</p>
+                </div>
               </div>
-              <div class="w3-col" style="width: 12.5%;"><p></p></div>
-              <div class="w3-col m3 w3-center">
-                <img class="icons" src="img/OpenCV-8.png">  
-                <p style="margin-top: 0.5rem;">OpenCV</p>          
-              </div>
-              <div class="w3-col m3 w3-center">
-                <img class="icons" src="img/Keras-8.png">  
-                <p style="margin-top: 0.5rem;">Keras</p>          
-              </div>
-              <div class="w3-col m3 w3-center">
-                <img class="icons" src="img/Tensorflow-8.png">  
-                <p style="margin-top: 0.5rem;">Tensorflow</p>          
-              </div>
-              <div class="w3-col" style="width: 12.5%;"><p></p></div>
             </div>
           </div>
-          <div class="w3-col l3 w3-center">
+
+          <div class="w3-col l2 w3-center" style="margin: 1%;">
             <div class="w3-row w3-center">
               <div class="w3-col m12">
-                <h3>Electronics</h3>
+                <img class="Logo" src="img/visual-8.png" />
+                <h3><strong>Visual Computing</strong></h3>
+                <p>
+                  I value simple but powerfull systems that can extract tons of
+                  information for you.
+                </p>
+                <h5><strong>Tools I use:</strong></h5>
+                <div class="list">
+                  <p>Keras</p>
+                  <p>Tensorflow</p>
+                  <p>OpenCV</p>
+                  <p>Python</p>
+                  <p>Rasperry pi</p>
+                </div>
               </div>
-              <div class="w3-col" style="width: 12.5%;"><p></p></div>
-              <div class="w3-col m3 w3-center">
-                <img class="icons" src="img/Arduino-8.png">  
-                <p style="margin-top: 0.5rem;">Arduino</p>          
-              </div>
-              <div class="w3-col m3 w3-center">
-                <img class="icons" src="img/Texas-8.png">  
-                <p style="margin-top: 0.5rem;">Texas Instruments</p>          
-              </div>
-              <div class="w3-col m3 w3-center">
-                <img class="icons" src="img/Raspberry-8.png">  
-                <p style="margin-top: 0.5rem;">Raspberry pi</p>          
-              </div>
-              <div class="w3-col" style="width: 12.5%;"><p></p></div>
             </div>
+          </div>
+
+          <div class="w3-col l2 w3-center" style="margin: 1%;">
+            <div class="w3-row w3-center">
+              <div class="w3-col m12">
+                <img class="Logo" src="img/Elec-8.png" />
+                <h3><strong>Electronics</strong></h3>
+                <p>
+                  I encourage automatic and intelligent hardware connected to
+                  cloud
+                </p>
+                <h5><strong>Technology I use</strong></h5>
+                <div class="list">
+                  <p>Arduino</p>
+                  <p>ESP8266</p>
+                  <p>Rasperry pi</p>
+                  <p>Texas Instruments</p>
+                  <p>IoT</p>
+                  <p>C/C++</p>
+                  <p>Python</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="w3-col l2 w3-center" style="margin: 1%;">
+            <div class="w3-row w3-center">
+              <div class="w3-col m12">
+                <img class="Logo" src="img/Elec-8.png" />
+                <h3><strong>Mentoring</strong></h3>
+                <p>
+                  I genuinely care about people, and love helping with their
+                  projects.
+                </p>
+                <h5><strong>Mentor Stats:</strong></h5>
+                <div class="list">
+                  <p>3 years experience</p>
+                  <p>10+ institutes</p>
+                  <p>200+ students</p>
+                  <p>500+ mentor sessions</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="w3-display-container w3-col" style="width: 3.3%;">
+            <p></p>
           </div>
         </div>
+
+        <!--small medium about-->
+        <div
+          class="w3-content w3-display-container w3-hide-large w3-center"
+          style="margin-top: 5rem;"
+        >
+          <div class="w3-display-container mySlides">
+            <img class="Logo" src="img/web-8.png" />
+            <h3><strong>Web Development</strong></h3>
+            <p>
+              I like to code things from scratch, and enjoy bringing ideas
+              to life in the browser.
+            </p>
+            <h5><strong>Things I use:</strong></h5>
+            <div class="list">
+              <p>HTML</p>
+              <p>CSS</p>
+              <p>JavaScript</p>
+              <p>Bootstrap</p>
+              <p>W3.CSS</p>
+              <p>React JS</p>
+              <p>Firebase</p>
+            </div>
+          </div>
+
+          <div class="w3-display-container mySlides">
+            <img class="Logo" src="img/VR2-8.png" />
+            <h3><strong>AR/VR Reality</strong></h3>
+            <p>
+              I love to improve information access with technology.
+            </p>
+            <h5><strong>Things I use:</strong></h5>
+              <div class="list">
+                <p>Unity</p>
+                <p>Vuforia</p>
+                <p>Unreal Engine</p>
+                <p>BluePrints</p>
+                <p>ARCore</p>
+                <p>Firebase</p>
+                <p>Steam VR</p>
+                <p>HTC Vive</p>
+              </div>
+          </div>
+
+          <div class="w3-display-container mySlides">
+            <img class="Logo" src="img/visual-8.png" />
+            <h3><strong>Visual Computing</strong></h3>
+            <p>
+              I value simple but powerfull systems that can extract tons of
+              information for you.
+            </p>
+            <h5><strong>Tools I use:</strong></h5>
+            <div class="list">
+              <p>Keras</p>
+              <p>Tensorflow</p>
+              <p>OpenCV</p>
+              <p>Python</p>
+              <p>Rasperry pi</p>
+            </div>
+          </div>
+
+          <div class="w3-display-container mySlides">
+            <img class="Logo" src="img/Elec-8.png" />
+            <h3><strong>Electronics</strong></h3>
+            <p>
+              I encourage automatic and intelligent hardware connected to
+              cloud
+            </p>
+            <h5><strong>Technology I use:</strong></h5>
+            <div class="list">
+              <p>Arduino</p>
+              <p>ESP8266</p>
+              <p>Rasperry pi</p>
+              <p>Texas Instruments</p>
+              <p>IoT</p>
+              <p>C/C++</p>
+              <p>Python</p>
+            </div>
+          </div>
+
+          <div class="w3-display-container mySlides">
+            <img class="Logo" src="img/Elec-8.png" />
+            <h3><strong>Mentoring</strong></h3>
+            <p>
+              I genuinely care about people, and love helping with their
+              projects.
+            </p>
+            <h5><strong>Mentor Stats:</strong></h5>
+            <div class="list">
+              <p>3 years experience</p>
+              <p>10+ institutes</p>
+              <p>200+ students</p>
+              <p>500+ mentor sessions</p>
+            </div>
+          </div>
+          <button
+            class="w3-button w3-display-left w3-black"
+            onclick="plusDivs(-1)"
+          >
+            &#10094;
+          </button>
+          <button
+            class="w3-button w3-display-right w3-black"
+            onclick="plusDivs(1)"
+          >
+            &#10095;
+          </button>
+        </div>
+      </div>
+      <div class="w3-display-bottommiddle scrolldown">
+        <a href="#about">
+          <span></span>
+          <span></span>
+          <span></span>
+        </a>
       </div>
     </div>
 
@@ -179,7 +341,30 @@
     <script src="js/portfolio.js"></script>
     <script src="https://unpkg.com/scroll-out/dist/scroll-out.min.js"></script>
     <script>
-        ScrollOut();
+      ScrollOut();
+    </script>
+    <script>
+      var slideIndex = 1;
+      showDivs(slideIndex);
+
+      function plusDivs(n) {
+        showDivs((slideIndex += n));
+      }
+
+      function showDivs(n) {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        if (n > x.length) {
+          slideIndex = 1;
+        }
+        if (n < 1) {
+          slideIndex = x.length;
+        }
+        for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none";
+        }
+        x[slideIndex - 1].style.display = "block";
+      }
     </script>
   </body>
 </html>
